@@ -4,9 +4,13 @@ const playPause = document.getElementById("play");
 function abrir() {
   document.getElementById("sobre-arriba").classList.add("animate__fadeOutUp");
   document.getElementById("sobre-abajo").classList.add("animate__slideOutDown");
-  document.getElementById("logo").classList.remove("animate__infinite");
+  document.getElementById("logo").classList.add("hide");
 
   document.getElementById("parent-div").classList.remove("test-class");
+  document.getElementById("parent-div").classList.remove("bg-dark-black");
+
+  document.getElementById("parent-div").classList.add("bg-logo");
+
   document.getElementsByTagName("body")[0].classList.remove("avoiding-scroll");
   audio.play();
 

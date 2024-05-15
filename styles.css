@@ -101,6 +101,11 @@ url("./assets/img/andre-jackson-IXLS59CTgDE-unsplash\ 21.35.31.jpg"); */
   background-position: center;
   background-size: cover;
 }
+.bg-logo {
+  background-image: url("./assets/img/portada-logo.jpg");
+  background-position: center;
+  background-size: cover;
+}
 .pb-5rem {
   padding-bottom: 3rem;
 }
