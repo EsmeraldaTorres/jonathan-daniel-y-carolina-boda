@@ -425,6 +425,14 @@ h3 {
   padding-top: 1%;
   max-width: 300px;
 }
+.line-mexican {
+  /* height: 20px; */
+  padding-top: 1%;
+  max-width: 180px;
+}
+.decoration1 {
+  width: 170px;
+}
 .container-ubicaciones {
   width: 90%;
   padding: 1rem;
@@ -490,7 +498,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   max-width: 100%;
-  background-image: url("./assets/img/img-12.jpeg");
+  background-image: url("./assets/img/img-3.jpeg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome (versiones antiguas) */
   -moz-background-size: cover; /* Para Firefox (versiones antiguas) */
@@ -589,7 +597,7 @@ a:hover {
 .last-window-back {
   height: 100vh;
   max-width: 100%;
-  background-image: url("./assets/img/img-2.jpeg");
+  background-image: url("./assets/img/img-12.jpeg");
   background-size: cover;
   /* background-attachment: fixed; */
   background-repeat: no-repeat;

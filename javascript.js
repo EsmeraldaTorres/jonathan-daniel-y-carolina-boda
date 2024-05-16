@@ -7,9 +7,9 @@ function abrir() {
   document.getElementById("logo").classList.add("hide");
 
   document.getElementById("parent-div").classList.remove("test-class");
-  document.getElementById("parent-div").classList.remove("bg-dark-black");
+  // document.getElementById("parent-div").classList.remove("bg-dark-black");
 
-  document.getElementById("parent-div").classList.add("bg-logo");
+  // document.getElementById("parent-div").classList.add("bg-logo");
 
   document.getElementsByTagName("body")[0].classList.remove("avoiding-scroll");
   audio.play();
@@ -41,29 +41,9 @@ const darkModeToggle = document.getElementById("darkModeToggle");
 const elements = document.querySelectorAll(".dark-mode");
 const bodyElement = document.getElementsByTagName("body");
 
-darkModeToggle.addEventListener("click", function () {
-  elements.forEach((element) => {
-    element.classList.toggle("dark-mode");
-    if (element.classList.contains("dark-mode")) {
-      // Si la clase dark-mode está presente, cambia los colores a blanco y negro
-      element.style.backgroundColor = "white";
-      element.style.color = "black";
-      element.style.backgroundImage = "none";
-    } else {
-      // Si la clase dark-mode no está presente, cambia los colores a negro y blanco
-      element.style.backgroundColor = "black";
-      element.style.color = "white";
-    }
-  });
-
-  document.getElementsByTagName("body")[0].classList.toggle("bg-black-dark");
-  document.getElementById("img-light-mode").classList.toggle("d-none");
-  document.getElementById("img-dark-mode").classList.toggle("d-none");
-});
-
 // Cuenta regresiva -------------------------------------------------------------------
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 22, 2024 16:00").getTime();
+var countDownDate = new Date("Jun 02, 2024 16:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
