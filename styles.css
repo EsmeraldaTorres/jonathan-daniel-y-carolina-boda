@@ -7,6 +7,15 @@
 .bg-black-dark {
   background-color: black;
 }
+.font-caveat {
+  font-family: "Clicker Script", cursive;
+}
+.mb-less-1rem {
+  margin-bottom: -1rem !important;
+}
+.display-2-5 {
+  font-size: 2.5rem !important;
+}
 p {
   font-size: 1.2rem;
 }
@@ -108,7 +117,7 @@ url("./assets/img/andre-jackson-IXLS59CTgDE-unsplash\ 21.35.31.jpg"); */
   background-size: cover;
 }
 .pb-5rem {
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 .animate__animated.animate__fadeOut {
   --animate-duration: 0.05s;
@@ -209,8 +218,8 @@ url("./assets/img/andre-jackson-IXLS59CTgDE-unsplash\ 21.35.31.jpg"); */
   border-radius: 100%;
 }
 .player-btn {
-  bottom: 2rem;
-  right: 2rem;
+  top: 1rem;
+  right: 1rem;
   position: fixed;
   justify-content: end;
   align-items: flex-end;
